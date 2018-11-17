@@ -1,0 +1,44 @@
+body{
+    font-family: 'Niramit', sans-serif;
+    font-size: 3.5vw;
+}
+
+.nameList {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.nameListHead {
+    border: 2px solid #75c075;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+.nameList ul{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    grid-template-columns: auto;
+    border: 2px solid #75c075;
+    font-size: 0.8em;
+}
+
+.nameList li {
+    padding: 5px;
+    margin: 1px;
+    min-width: 150px;
+    color: #444343;
+}
+
+@media (max-resolution: 1dppx){
+    body {
+        font-size: 25px
+    }
+}
